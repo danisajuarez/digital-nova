@@ -49,7 +49,7 @@ const ProjectsSection = () => {
         </h2>
 
         <div className="mt-16 space-y-20">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
               key={project.title}
               className="flex flex-col md:flex-row items-center gap-x-20 gap-y-6 md:odd:flex-row-reverse"
